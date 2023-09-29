@@ -1,4 +1,3 @@
-Tabii ki, işte İngilizce GitHub açıklama metni:
 
 **A C library for getting user input of different data types**
 
