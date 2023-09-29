@@ -3,13 +3,21 @@
 
 //For string
 typedef char* string;
+
 string get_string(const char* msg) {
     string CharString = NULL;
-    size_t size = 0;
+    size_t size = sizeof(CharString);
     printf("%s", msg);
     getline(&CharString, &size, stdin);
     return CharString;
 }
+
+/*
+use of.
+String StringName = get_string("Plase input a string:");
+*/
+
+//==========================================
 
 
 //for int
@@ -20,6 +28,13 @@ int get_int(const char* msg) {
     return number;
 }
 
+/*
+use of.
+int İntName = get_int("Plase input a int:");
+*/
+
+//==========================================
+
 //for float
 float get_float(const char* msg) {
     float number;
@@ -28,6 +43,11 @@ float get_float(const char* msg) {
     return number;
 }
 
+/*
+use of.
+float FloatName = get_float("plase input a float:");
+*/
+//=================================================
 
 //for fouble
 double get_double(const char* msg){
@@ -36,6 +56,13 @@ double get_double(const char* msg){
 	scanf("%lf",&number);
 	return number;
 	}
+	
+/*
+use of.
+double DoubleName = get_double("plase input a double:");
+*/
+
+//=============================================
 
 //for long
 long get_long(const char* msg){
@@ -45,6 +72,13 @@ long get_long(const char* msg){
 	return number;
 	}
 
+/*
+use of.
+long LongName = get_long("plase input a long:");
+*/
+
+//===============================================
+
 //for short
 short get_short(const char* msg){
 	short number;
@@ -53,19 +87,9 @@ short get_short(const char* msg){
 	return number;
 	}
 
+/*
+use of.
+short ShortName = get_short("plase input a short:");
+*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//===============================================
